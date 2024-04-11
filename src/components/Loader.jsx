@@ -1,11 +1,11 @@
-import React from "react";
-
-const Loader = () => {
+function Loader() {
   return (
-    <div className="loader flex justify-center items-center h-screen">
-      <div className="loader-spinner animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-gray-900"></div>
-    </div>
+    <>
+      <div className="h-screen w-screen flex justify-center items-center">
+        <span className="loading loading-ring loading-lg"></span>
+      </div>
+    </>
   );
-};
+}
 
 export default Loader;
