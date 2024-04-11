@@ -1,43 +1,52 @@
-Dear Candidate,
-Hope you are doing well,
-Thank you for applying in Furation Tech Solutions for FRONTEND DEVELOPER Role
+## Book Explorer Web Application
+- This is a simple web application built with ReactJS that allows users to explore a collection of books. Users can view book details, filter books by genre or author, and enjoy a seamless experience across different devices.
 
-(Kindly note that for ROUND 1 one assessment is shared with you ,Kindly complete it before the deadline and submit your answer in the attached google form.)
 
-\*IF YOU SUBMITTED THE ASSESSMENT KINDLY IGNORE THIS MAIL
 
-Assignment Details:
-Title: ReactJS Full Stack Assignment - Interactive Bookstore Application
-Duration: ( 21 st June, 8pm)
-Submission: GitHub Repository
+## Tech Stack
 
-Problem Statement:
-You have been assigned to develop an interactive Bookstore application using ReactJS. The application should allow users to browse and search for books, view book details, add books to a shopping cart, and place an order.
+- Framework: ReactJS
+- Styling: Tailwind CSS for basic styling
+- State Management: No external state management library used
+- API Requests: Utilized Fetch API for backend communication
 
-Requirements:
 
-1. Build a ReactJS application with multiple pages/components, including Home, Book Listing, Book Details, Shopping Cart, and Checkout pages.
-2. Implement features such as book search, book filtering, add to cart, remove from cart, and order placement.
-3. Use ReactJS, React Router, Redux or React Context API, CSS or CSS frameworks, Git, and GitHub for hosting the repository.
-4. Bonus tasks include implementing user authentication, unit tests, and deploying the application on a hosting platform.
+## Key Features
 
-Submission Guidelines:
+- **Book Listing: Display a list of books with cover image, title, author, and rating.**
+- **Basic Filtering: Filter books by genre or author.**
+- **Responsive Design: Ensure the app provides a seamless experience across all devices.**
+- **API Integration: Fetch and display book data from the provided API endpoint.**
+- **Detail View: View more information about each book when selected.**
 
-1. Create a new public repository on GitHub for the assignment.
-2. Commit your code regularly and include clear commit messages.
-3. Include a README file explaining the project setup, usage instructions, and any additional information.
-4. Ensure the repository is well-organized and easy to navigate.
+  
 
-Evaluation Criteria:
+## Getting Started
 
-- Functionality: Does the application meet all the specified requirements?
-- Code Quality: Is the code clean, modular, and well-structured?
-- User Interface: Is the application visually appealing and user-friendly?
-- Error Handling: Does the application handle errors gracefully?
-- Bonus Tasks: If bonus tasks are attempted, evaluate their implementation.
+1. **Clone the Repository**:
 
-\*Please note that this assignment is designed to assess your skills as a full stack developer.
+   ```bash
+     git clone https://github.com/thor8126/schbangQ
+  
+   ```
 
-GOOGLE FORM LINK : https://forms.gle/tF6MyepVz8ydvq2V8
+2. **Install Dependencies:**:
 
-We look forward to reviewing your submission. If you have any questions or need clarification, please don't hesitate to reach out.
+    ```bash
+      cd schbangQ
+      npm install
+    ```
+
+4. **Start the Development Server**:
+
+    ```bash
+        cd schbangQ
+        npm run dev
+    ```
+
+     
+## Hosted Url- 
+
+   ```
+   
+   ```
