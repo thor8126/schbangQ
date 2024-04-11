@@ -48,5 +48,5 @@
 ## Hosted Url- 
 
    ```
-   
+   https://schbang-q-vert.vercel.app/
    ```
